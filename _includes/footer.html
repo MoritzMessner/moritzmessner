@@ -1,0 +1,13 @@
+<footer class="site-footer">
+  <div class="footer-content">
+    <p>&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}. Alle Rechte vorbehalten.</p>
+    <div class="social-links">
+      {% if site.social.github %}
+      <a href="https://github.com/{{ site.social.github }}" target="_blank" rel="noopener">GitHub</a>
+      {% endif %}
+      {% if site.social.linkedin %}
+      <a href="https://linkedin.com/in/{{ site.social.linkedin }}" target="_blank" rel="noopener">LinkedIn</a>
+      {% endif %}
+    </div>
+  </div>
+</footer>

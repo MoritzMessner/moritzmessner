@@ -1,0 +1,7 @@
+main:
+  - title: Blog
+    url: /
+  - title: CV
+    url: /cv/
+  - title: Projekte
+    url: /projects/

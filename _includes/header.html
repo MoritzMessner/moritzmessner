@@ -1,0 +1,14 @@
+<header class="site-header">
+  <nav class="nav-container">
+    <a href="{{ '/' | relative_url }}" class="nav-logo">{{ site.title }}</a>
+    <ul class="nav-menu">
+      {% for item in site.data.navigation.main %}
+      <li>
+        <a href="{{ item.url | relative_url }}" {% if page.url == item.url %}class="active"{% endif %}>
+          {{ item.title }}
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
+  </nav>
+</header>

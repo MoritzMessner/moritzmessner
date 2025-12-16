@@ -1,0 +1,45 @@
+# Site settings
+title: Moritz Messner
+description: Flutter Developer – Blog & Portfolio
+url: "" # Will be set when deploying to GitHub Pages
+baseurl: "" # Leave empty for user/org pages
+
+# Author
+author:
+  name: Moritz Messner
+  email: moritzmessner14@gmail.com
+  location: Stuttgart, Deutschland
+
+# Social links
+social:
+  github: MoritzMessner
+  linkedin: moritz-messner-382a6323a
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+# Collections (for pages)
+collections:
+  pages:
+    output: true
+
+# Default front matter
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: default
+
+# Exclude from build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor
+  - node_modules
+
+# Plugins
+plugins:
+  - jekyll-seo-tag
