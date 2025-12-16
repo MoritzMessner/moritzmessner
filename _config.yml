@@ -2,7 +2,7 @@
 title: Moritz Messner
 description: Flutter Developer – Blog & Portfolio
 url: "" # Will be set when deploying to GitHub Pages
-baseurl: "/moritzmessner" # Repository name for project pages
+baseurl: "" # User page - no baseurl needed
 
 # Author
 author:
